@@ -1,6 +1,6 @@
 class Solver
   def factorial(number)
-    if number < 1
+    if number < 0
       'Value must be greater than or equal to 1.'
     else
       result = 1
